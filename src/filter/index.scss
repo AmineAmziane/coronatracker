@@ -1,0 +1,21 @@
+.filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 1em 0;
+  select {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 400px;
+    padding: 0.5em 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+    background: #fafafa;
+    font-size: 1rem;
+    @media (max-width: 420px) {
+      width: 90%;
+    }
+  }
+}

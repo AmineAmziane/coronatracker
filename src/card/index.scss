@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600&display=swap");
+.card {
+  width: 225px;
+  min-height: 200px;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+  padding: 2em 1.5em;
+  text-align: left;
+  border-radius: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 2em 1em;
+  span {
+    margin: 0.05em 0;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+  }
+  h3 {
+    span {
+      margin: 0.15em 0;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #000;
+    }
+  }
+}

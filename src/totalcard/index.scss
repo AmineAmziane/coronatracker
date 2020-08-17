@@ -1,0 +1,15 @@
+.totalcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.chartCard {
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+}

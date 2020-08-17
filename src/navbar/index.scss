@@ -1,0 +1,18 @@
+.navbar {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em 0;
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
